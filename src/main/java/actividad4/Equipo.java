@@ -26,7 +26,11 @@ public class Equipo {
 	}
 
 	public void modificarRol(String nombre, String rol) {
-		throw new UnsupportedOperationException();
+		for (Jugador jugador : jugadores){
+			if (jugador.getNombre().equals(nombre)){
+				jugador.setRol(rol);
+			}
+		}
 	}
 
 	public void asignarCapitan(Jugador jugador) {
