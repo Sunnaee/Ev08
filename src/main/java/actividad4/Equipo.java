@@ -12,7 +12,9 @@ public class Equipo {
 	}
 
 	public void anadirJugador(Jugador jugador) {
-		throw new UnsupportedOperationException();
+		if (!jugadores.contains(jugador)) {
+			jugadores.add(jugador);
+		}
 	}
 
 	public void eliminarJugador(String nombre) {
