@@ -3,6 +3,7 @@ package actividad4;
 public class Jugador {
 	private String nombre;
 	private String rol;
+	private Equipo equipo;
 
 	public Equipo getEquipo() {
 		return equipo;
@@ -11,8 +12,6 @@ public class Jugador {
 	public void setEquipo(Equipo equipo) {
 		this.equipo = equipo;
 	}
-
-	private Equipo equipo;
 
 	public String getNombre() {
 		return this.nombre;
