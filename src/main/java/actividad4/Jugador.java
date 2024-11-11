@@ -5,6 +5,11 @@ public class Jugador {
 	private String rol;
 	private Equipo equipo;
 
+	public Jugador(String nombre, String rol) {
+		this.nombre = nombre;
+		this.rol = rol;
+	}
+
 	public Equipo getEquipo() {
 		return equipo;
 	}
@@ -27,5 +32,14 @@ public class Jugador {
 
 	public void setRol(String rol) {
 		this.rol = rol;
+	}
+
+	@Override
+	public String toString() {
+		return "Jugador{" +
+				"nombre='" + nombre + '\'' +
+				", rol='" + rol + '\'' +
+				", equipo=" + equipo +
+				'}';
 	}
 }

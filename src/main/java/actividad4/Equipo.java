@@ -6,6 +6,11 @@ public class Equipo {
 	private Jugador capitan;
 	private ArrayList<Jugador> jugadores = new ArrayList<Jugador>();
 
+	public Equipo(Jugador capitan, ArrayList<Jugador> jugadores) {
+		this.capitan = capitan;
+		this.jugadores = jugadores;
+	}
+
 	public void anadirJugador(Jugador jugador) {
 		throw new UnsupportedOperationException();
 	}
@@ -14,7 +19,7 @@ public class Equipo {
 		throw new UnsupportedOperationException();
 	}
 
-	public void modificarRol(String rol) {
+	public void modificarRol(String nombre, String rol) {
 		throw new UnsupportedOperationException();
 	}
 
