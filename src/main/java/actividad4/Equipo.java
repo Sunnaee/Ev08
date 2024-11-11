@@ -34,10 +34,12 @@ public class Equipo {
 	}
 
 	public void asignarCapitan(Jugador jugador) {
-		throw new UnsupportedOperationException();
+		this.capitan = jugador;
 	}
 
 	public void verJugadores() {
-		throw new UnsupportedOperationException();
+		for (Jugador jugadorEnLista : jugadores){
+			jugadorEnLista.toString();
+		}
 	}
 }
