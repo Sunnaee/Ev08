@@ -16,7 +16,11 @@ public class Equipo {
 	}
 
 	public void eliminarJugador(String nombre) {
-		throw new UnsupportedOperationException();
+		for (Jugador jugador : jugadores){
+			if (jugador.getNombre().equals(nombre)){
+				jugadores.remove(jugador);
+			}
+		}
 	}
 
 	public void modificarRol(String nombre, String rol) {
