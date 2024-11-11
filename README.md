@@ -20,7 +20,7 @@ Dados los siguientes enunciados modele usando diagramas de clases UML las relaci
 
 3. Una persona estima al menos a otra persona, que puede ser considerada su amigo/a.
 
-4. Un equipo tiene al menos un jugador y cada jugador pertenece a un sólo equipo. Cada equipo es capitaneado por un jugado
+4. Un equipo tiene al menos un jugador y cada jugador pertenece a un sólo equipo. Cada equipo es capitaneado por un jugador.
 
 5. Una empresa está conformada de muchos departamentos. Cada departamento agrupa al menos a un empleado, y un empleado trabaja en un único departamento. Además, un departamento es administrado por un empleado que es el administrador, y cada administrador administra un único departamento. Por otro lado, una empresa igualmente se compone de muchas oficinas y existe un tipo particular de oficinas que son las oficinas de tipo oficina-central.
 
